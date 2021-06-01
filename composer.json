@@ -1,0 +1,48 @@
+{
+    "name": "kiosk/support",
+    "description": "Kiosk Support is a Laravel package for core support features.",
+    "keywords": [
+        "laravel",
+        "kiosk",
+        "support"
+    ],
+    "homepage": "https://github.com/getkiosk/support",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgenii Nasyrov",
+            "email": "inasyrov@ya.ru",
+            "homepage": "https://github.com/nasyrov",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Kiosk\\Support\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kiosk\\Support\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kiosk\\Support\\SupportServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
