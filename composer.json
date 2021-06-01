@@ -34,7 +34,8 @@
         }
     },
     "scripts": {
-        "lint": "phpcs"
+        "lint": "phpcs",
+        "analyse": "psalm"
     },
     "extra": {
         "laravel": {
