@@ -1,4 +1,4 @@
-# Kiosk Meta Tags
+# Kiosk Support
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/kiosk/support.svg?style=flat-square)](https://packagist.org/packages/kiosk/support)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/getkiosk/support/tests?label=tests&style=flat-square)](https://github.com/getkiosk/support/actions?query=workflow%3ATests+branch%3Amain)
