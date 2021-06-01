@@ -18,7 +18,7 @@ abstract class TestCase extends OrchestraTestCase
 
     protected function defineDatabaseMigrations(): void
     {
-        Schema::create('test_author_models', function (Blueprint $table) {
+        Schema::create('test_publications', function (Blueprint $table) {
             $table->id();
             $table->timestamp('published_at')->nullable();
         });
