@@ -1,7 +1,7 @@
 # Kiosk Meta Tags
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/kiosk/support.svg?style=flat-square)](https://packagist.org/packages/kiosk/support)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/getkiosk/support/tests?label=tests)](https://github.com/getkiosk/support/actions?query=workflow%3Atests+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/getkiosk/support/tests?label=tests)](https://github.com/getkiosk/support/actions?query=workflow%3ATests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/getkiosk/support/coding-standard?label=code%20standard)](https://github.com/getkiosk/support/actions?query=workflow%3A"Coding+standard"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/kiosk/support.svg?style=flat-square)](https://packagist.org/packages/kiosk/support)
 
