@@ -38,7 +38,9 @@
     },
     "scripts": {
         "lint": "phpcs",
-        "analyse": "psalm"
+        "analyse": "psalm",
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
     },
     "extra": {
         "laravel": {
