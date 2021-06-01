@@ -1,0 +1,34 @@
+name: Static analysis
+
+on:
+  push:
+    paths:
+      - 'src/**.php'
+      - 'psalm.xml.dist'
+
+jobs:
+  static-analysis:
+    name: Static analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.0
+          coverage: none
+          tools: composer:v2
+
+      - name: Cache composer dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.composer/cache/files
+          key: composer-${{ hashFiles('composer.lock') }}
+
+      - name: Install composer dependencies
+        run: composer install -n --prefer-dist
+
+      - name: Analyse code
+        run: composer analyse
